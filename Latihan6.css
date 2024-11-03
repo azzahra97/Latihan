@@ -1,0 +1,287 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+#marquee {
+	color: #e18e1d;
+	font-family: georgia;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+nav{
+	background :#6fd095 ;
+	height: 50px;
+	width: 100%;
+}
+
+label.logo{
+	font-weight: bold;
+	padding: 0 100px;
+	font-size: 35px;
+	color: #fdfefe ;
+	line-height: 100px;
+}
+
+nav ul{
+	float: right;
+	margin-right: 25px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 90px;
+	margin: 0 5px;
+}
+
+nav ul li a{
+	margin:30px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+a.active,a:hover{
+	background: #27542a ;
+	transition: .5s;
+}
+
+nav .main{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: relative;
+	top: 50px;
+}
+
+nav .main .men_text h1{
+	font-size: 50px;
+	position: relative;
+	color: #e18e1d;
+	font-family: sans-seri ;
+	top: -40px;
+	left: 120px;
+}
+
+nav .main .men_text h1 span{
+	margin-left: 20px;
+	color: #27542a ;
+	font-family: mv boli;
+	line-height: 30px;
+	font-size: 55px;
+}
+
+nav .main .main_images img{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	left: 300px;
+	right: 200x;
+	bottom: -30px;
+} 
+
+nav p{
+	width: 550px;
+	text-align: justify;
+	position: relative;
+	left: 180px;
+	bottom: 120px;
+	line-height: 22px;
+}
+
+.About {
+	width: 90%;
+	height: 100vh;
+	padding: 70px 0;
+}
+
+.About .About_main{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.About .About_main .About_text h1 span{
+	color: #e18e1d;
+	margin-right: 10px;
+	margin-left: 50px;
+	font-family: sans-seri;
+}
+
+.About .About_main .About_text h1{
+	font-size: 55px;
+	color: #e18e1d;
+	font-family: sans-seri;
+	position: relative;
+	bottom: 50px;
+}
+
+.About .About_main .About_text h3{
+	font-size: 30px;
+	margin: 0 0 10px 0;
+	margin-left: 50px;
+	color: #27542a ;
+}
+
+/*pengenalan web*/
+.About .About_main .About_text p{
+	width: 700px;
+	text-align: justify;
+	margin-right: 70px;
+	text-align: 90px;
+	height: 50px;
+	line-height: 22px;
+	top: 5px;
+	margin-left: -125px;
+	outline: 5px black;
+	outline-style: none;
+}
+
+.About .About_main .images img{
+	width: 350px;
+	height: 350px;
+	position: relative;
+	margin-left: 50px;
+	top: 2px;
+}
+
+.card-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 25px;
+	margin-top: 60px;
+}
+.card{
+	width: 225px;
+	height: 350px;
+	background-color:#e6e7a8;
+	border: 5px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+	transform: translateY(-20px);
+	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.8);
+}
+.card img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.card-content{
+	padding: 5px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.card-content h1{
+	font-size: 17px;
+	font-family: garamond;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #27542a;
+}
+.card-button{
+	display: inline-block;
+	background-color: #27542a;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 7px 10px;
+	font-size: small;
+	align-items: center;
+	margin-top: 40px;
+}
+.card{
+	outline: 5px double green;
+	outline-style: dotted;
+}
+
+ul.a {
+	list-style-position: inside;
+    list-style-type: circle; 
+    padding: 10px 40px;
+    font-family: garamond;
+}
+
+ul.a li {
+	list-style-type: circle;
+    font-size: 1.2rem;
+    color: darkgreen; 
+    margin: 1px 0;
+    padding-left: 30px;
+}
+ul.a li + li {
+    margin-top: 5px;
+}
+
+.Jurnal.Kita td{
+	text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+strong {
+    font-size: 18px;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.icon-item {
+    text-align: center;
+    font-size: 24px; /* Ukuran ikon */
+}
+
+.icon-item i {
+    color: #333; /* Warna ikon */
+    margin-bottom: 5px; /* Spasi di bawah ikon */
+}
+
+.icon-item span {
+    display: block;
+    font-size: 14px; /* Ukuran teks */
+    color: #666; /* Warna teks */
+}
+
+
+
