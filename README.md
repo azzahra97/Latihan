@@ -1,2 +1,4 @@
 (Tugas 1) Saya mengerjakan tugas ini dengan melihat referensi dari WebSchool dan juga dibantu oleh teman, sehingga bisa memahami konsep-konsep yang sulit dengan lebih baik dan menerapkannya dalam tugas.
 (Tugas 2) Sama seperti tugas 1, saya mengerjakan ini dengan melihat ppt yang sudah dibuat oleh kelompok yang membahas materi ini, kemudian saya melihat beberapa referensi di we3schools. Tugas ini sudah mulai bisa saya pahami dan pelajari sehingga tidak terlalu banyak kesulitan saat mengerjakannya.
+(Tugas 3) Saya mulai paham dengan beberapa materi nya, sesekali ada yang eror tetapi saya cek ulang dengan bertanya ke bebeapa teman saya, youtube dan tiktok juga saya gunakan untuk mencari banyak referensi nya.
+(Tugas 4) Sedikit banyak kesulitan, tapi bisa tertangani karena bantuan youtube, banyak yang eror karena saya terburu-buru mengerjakannya. Sejauh ini ada beberapa kodingan yang sudah saya hapal.
